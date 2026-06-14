@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import toast from 'react-hot-toast';
 import { adminApi } from '../../api';
-
+// This component provides an interface for uploading images in the admin panel. It allows users to select a file from their device or paste an image URL. The component handles the upload process, displays a preview of the uploaded image, and shows success or error notifications using react-hot-toast. The input is styled with Tailwind CSS and supports dark mode.
 export default function ImageUpload({ value, onChange, label = 'Image' }) {
   const [uploading, setUploading] = useState(false);
 
