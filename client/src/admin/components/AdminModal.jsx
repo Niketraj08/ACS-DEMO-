@@ -23,3 +23,4 @@ export default function AdminModal({ title, children, onClose, onSave, saving, w
     </div>
   );
 }
+// This component is a reusable modal dialog for admin interfaces. It accepts props for the title, content, and actions. The modal is styled with Tailwind CSS and includes a close button and an optional save button. The `wide` prop allows for a wider modal when needed.
