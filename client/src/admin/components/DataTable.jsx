@@ -1,5 +1,5 @@
 import { FaEdit, FaTrash } from 'react-icons/fa';
-
+// This component renders a data table for admin interfaces. It accepts columns and data as props, along with optional edit and delete handlers. The table is styled with Tailwind CSS and includes loading state handling. Each row has action buttons for editing and deleting records, which trigger the respective handlers when clicked.
 export default function DataTable({ columns, data, onEdit, onDelete, loading }) {
   if (loading) {
     return (
