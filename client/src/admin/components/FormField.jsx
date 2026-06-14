@@ -26,3 +26,4 @@ export function Select({ label, options, ...props }) {
     </div>
   );
 }
+// This component renders a styled textarea field with an optional label. It uses Tailwind CSS for styling and supports dark mode. The `...props` allows you to pass any standard textarea attributes (like value, onChange, etc.) when using the component. The `resize-none` class prevents resizing of the textarea.
