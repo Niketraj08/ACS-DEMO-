@@ -6,7 +6,7 @@ export function Input({ label, ...props }) {
     </div>
   );
 }
-
+// This component renders a styled input field with an optional label. It uses Tailwind CSS for styling and supports dark mode. The `...props` allows you to pass any standard input attributes (like type, value, onChange, etc.) when using the component.
 export function Textarea({ label, ...props }) {
   return (
     <div>
