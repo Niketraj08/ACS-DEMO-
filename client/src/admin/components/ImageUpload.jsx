@@ -19,7 +19,7 @@ export default function ImageUpload({ value, onChange, label = 'Image' }) {
       setUploading(false);
     }
   };
-
+// The component renders a file input for selecting images and a text input for pasting image URLs. If an image URL is provided, it displays a preview of the image. The file input is disabled while an upload is in progress to prevent multiple uploads at the same time.
   return (
     <div>
       <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">{label}</label>
