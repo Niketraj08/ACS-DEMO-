@@ -7,7 +7,7 @@ import {
   FaUsers, FaCog, FaSearch, FaImage, FaLayerGroup, FaCode,
 } from 'react-icons/fa';
 import { useAuth } from '../context/AuthContext';
-
+// This component defines the layout for the admin panel. It includes a sidebar with navigation links, a header with the current user's name and a logout button, and a main content area where different admin pages are rendered based on the route. The sidebar can be toggled on smaller screens, and the layout is styled using Tailwind CSS with support for dark mode. The menu items are defined in an array, allowing for easy addition or modification of admin sections.
 const menuItems = [
   { path: '/admin', label: 'Dashboard', icon: FaTachometerAlt },
   { path: '/admin/hero', label: 'Hero', icon: FaRocket },
