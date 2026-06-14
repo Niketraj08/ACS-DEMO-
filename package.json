@@ -1,0 +1,16 @@
+{
+  "name": "astra-cognix",
+  "version": "1.0.0",
+  "description": "Astra Cognix Solutions - Full Stack Corporate Website",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install --legacy-peer-deps",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
