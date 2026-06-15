@@ -66,3 +66,4 @@ export default function ContactsManage() {
     </div>
   );
 }
+// This component allows admin users to manage contact inquiries submitted through the website. It displays a table of inquiries with details like name, email, service requirement, status, and date. Admins can click on an inquiry to view more details in a modal and update its status (e.g., mark as read, replied, or closed). They can also delete inquiries if needed. The component fetches the list of inquiries from the server when it mounts and provides feedback through toast notifications for actions taken.
