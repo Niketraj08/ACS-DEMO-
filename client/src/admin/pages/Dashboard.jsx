@@ -12,7 +12,7 @@ const statCards = [
   { key: 'projects', label: 'Projects', icon: FaBriefcase, color: 'bg-cyan-500', link: '/admin/portfolio' },
   { key: 'subscribers', label: 'Subscribers', icon: FaUsers, color: 'bg-pink-500', link: '/admin/settings' },
 ];
-
+// The Dashboard component displays an overview of key metrics and recent activity for the admin users. It fetches dashboard data from the server when it mounts and displays statistic cards for total inquiries, new inquiries, blog posts, services, projects, and subscribers. It also includes a bar chart showing monthly inquiries and a list of recent inquiries with their status.
 export default function Dashboard() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
