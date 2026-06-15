@@ -41,7 +41,7 @@ export default function Dashboard() {
           </Link>
         ))}
       </div>
-
+// Display a bar chart of monthly inquiries and a list of recent inquiries
       <div className="grid lg:grid-cols-2 gap-6">
         <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow">
           <h3 className="font-bold text-gray-900 dark:text-white mb-4">Monthly Inquiries</h3>
