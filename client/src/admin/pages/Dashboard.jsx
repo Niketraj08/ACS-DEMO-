@@ -25,7 +25,7 @@ export default function Dashboard() {
   }, []);
 
   if (loading) return <div className="animate-pulse h-64 bg-gray-200 dark:bg-gray-700 rounded-xl" />;
-
+// Extract the statistics from the fetched data, providing default values if not available
   const stats = data?.stats || {};
 
   return (
