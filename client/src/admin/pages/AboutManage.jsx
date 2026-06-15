@@ -6,7 +6,7 @@ import { Input, Textarea } from '../components/FormField';
 export default function AboutManage() {
   const [form, setForm] = useState({});
   const [saving, setSaving] = useState(false);
-
+// Fetch the current about section data when the component mounts
   useEffect(() => {
     adminApi.about().then((res) => setForm(res.data.data || {})).catch(() => {});
   }, []);
