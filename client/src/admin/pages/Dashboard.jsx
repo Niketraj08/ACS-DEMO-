@@ -77,3 +77,4 @@ export default function Dashboard() {
     </div>
   );
 }
+// This component serves as the main dashboard for admin users, providing a quick overview of important metrics and recent activity. It uses the Recharts library to display a bar chart of monthly inquiries and provides links to manage different sections of the admin panel. The design is responsive and adapts to different screen sizes, ensuring a good user experience across devices.
