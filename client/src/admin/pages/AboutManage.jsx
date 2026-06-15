@@ -22,7 +22,7 @@ export default function AboutManage() {
       setSaving(false);
     }
   };
-
+// Helper function to update form state
   const set = (key, val) => setForm((p) => ({ ...p, [key]: val }));
 
   return (
