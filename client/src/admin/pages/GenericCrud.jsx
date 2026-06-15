@@ -4,7 +4,7 @@ import DataTable from '../components/DataTable';
 import AdminModal from '../components/AdminModal';
 import { Input, Textarea } from '../components/FormField';
 import ImageUpload from '../components/ImageUpload';
-
+// This is a generic CRUD component that can be reused for managing different types of data in the admin panel. It takes in props for the title, API methods, form fields, and table columns. It handles fetching the list of items, displaying them in a table, and providing a modal form for creating and editing items. The component also includes functionality for deleting items and shows toast notifications for actions taken.
 export default function GenericCrud({ title, api, fields, emptyItem, columns }) {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
