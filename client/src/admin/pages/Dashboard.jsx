@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { FaEnvelope, FaBlog, FaCogs, FaBriefcase, FaUsers } from 'react-icons/fa';
 import { adminApi } from '../../api';
-
+// Define the configuration for the statistic cards displayed on the dashboard
 const statCards = [
   { key: 'contacts', label: 'Total Inquiries', icon: FaEnvelope, color: 'bg-blue-500', link: '/admin/contacts' },
   { key: 'newContacts', label: 'New Inquiries', icon: FaEnvelope, color: 'bg-orange-500', link: '/admin/contacts' },
