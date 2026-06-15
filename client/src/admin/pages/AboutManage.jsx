@@ -61,3 +61,4 @@ export default function AboutManage() {
     </div>
   );
 }
+// This component allows admin users to manage the "About" section of the website. It fetches the current about data on mount and populates a form with fields for title, content, mission, vision, statistics, and core values. The statistics and core values are edited as JSON in textareas. When the save button is clicked, it sends the updated data to the server and shows a success or error toast based on the response.
