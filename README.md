@@ -3,7 +3,7 @@
 Premium full-stack corporate IT company website with a powerful admin CMS.
 
 ## Tech Stack
-
+add somethings
 **Frontend:** React, Tailwind CSS, Framer Motion, React Router, React Hook Form, Axios  
 **Backend:** Node.js, Express.js, MongoDB, Mongoose, JWT  
 **Features:** Dark/Light mode, Admin CMS, Cloudinary uploads, SEO, Contact forms
