@@ -9,6 +9,7 @@ add somethings
 **Features:** Dark/Light mode, Admin CMS, Cloudinary uploads, SEO, Contact forms
 
 ## Quick Start
+npm run dev
 
 ### Prerequisites
 
