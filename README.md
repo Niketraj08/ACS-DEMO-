@@ -24,13 +24,6 @@ npm run dev
 
 Copy `server/.env.example` to `server/.env` and configure:
 
-```env
-MONGODB_URI=mongodb://127.0.0.1:27017/astra_cognix
-JWT_SECRET=your_secret_key
-CLIENT_URL=http://localhost:5173
-ADMIN_EMAIL=admin@astracognix.com
-ADMIN_PASSWORD=Admin@123456
-```
 
 Optional Cloudinary and SMTP settings for image uploads and email notifications.
 
