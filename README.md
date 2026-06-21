@@ -1,5 +1,5 @@
 # Astra Cognix Solutions Pvt Ltd
-done project  
+
 Premium full-stack corporate IT company website with a powerful admin CMS.
 
 ## Tech Stack
