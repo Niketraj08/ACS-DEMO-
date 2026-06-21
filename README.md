@@ -18,12 +18,7 @@ npm run dev
 
 ### Installation
 
-```bash
-# Install root, server, and client dependencies
-npm install
-cd server && npm install
-cd ../client && npm install --legacy-peer-deps
-```
+
 
 ### Environment
 
