@@ -92,4 +92,3 @@ Serve `client/dist` with any static host and deploy the Express API separately.
 
 ## License
 
-Proprietary - Astra Cognix Solutions Pvt Ltd
