@@ -27,12 +27,7 @@ Copy `server/.env.example` to `server/.env` and configure:
 
 Optional Cloudinary and SMTP settings for image uploads and email notifications.
 
-### Seed Database
 
-```bash
-cd server
-npm run seed
-```
 
 ### Run Development
 
