@@ -10,7 +10,7 @@ add somethings
 
 ## Quick Start
 npm run dev
-
+ add on finction to SMPT 
 ### Prerequisites
 
 - Node.js 18+
